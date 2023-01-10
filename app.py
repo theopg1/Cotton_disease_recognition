@@ -27,5 +27,5 @@ examples = ['Exemples/Aphids.jpg', 'Exemples/Army worm.jpg', 'Exemples/Bacterial
 title = "Leaf disease recognition"
 description = "<p style='text-align: center'>Identifier sur une photo de feuille d'arbre si elle saine sinon de quoi elle est atteinte.</br>Catégories : Aphids, Army worm, Bacterial Blight, Healthy, Powdey Mildew, Target spot</p>"
 
-intf = gr.Interface(fn=classify_image, inputs=image, outputs=label, examples=examples)
+intf = gr.Interface(fn=classify_image, title=title, description=description, inputs=image, outputs=label, examples=examples)
 intf.launch(inline=False)
