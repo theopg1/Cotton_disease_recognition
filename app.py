@@ -24,5 +24,8 @@ image = gr.inputs.Image(shape=(192,192))
 label = gr.outputs.Label()
 examples = ['Exemples/Aphids.jpg', 'Exemples/Army worm.jpg', 'Exemples/Bacterial Blight.jpg', 'Exemples/Healthy.jpg', 'Exemples/Powdey Mildew.jpg', 'Exemples/Target spot.jpg']
 
+title = "Leaf disease recognition"
+description = "<p style='text-align: center'>Identifier sur une photo de feuille d'arbre si elle saine sinon de quoi elle est atteinte.</p>"
+
 intf = gr.Interface(fn=classify_image, inputs=image, outputs=label, examples=examples)
 intf.launch(inline=False)
