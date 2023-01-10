@@ -7,7 +7,7 @@ Projet d'initiation au deeplearning ayant pour but d'apprendre à comprendre et 
 Créer un programme de reconnaissance de l'état de santé d'une feuille d'arbre. Savoir si cette dernière est saine ou atteinte d'une maladie ou attaqué par un nuisible par exemple. 
 
 Les images sont issues de kaggle grâce à ce dataset :</br>
-https://www.kaggle.com/datasets/dhamur/cotton-plant-disease?resource=download
+https://www.kaggle.com/datasets/dhamur/cotton-plant-disease
 
 Lien vers le huggingface du projet :</br>
 https://huggingface.co/spaces/theopg1/Cotton_disease_recognition
